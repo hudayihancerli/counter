@@ -1,0 +1,2 @@
+# counter
+Basit sayaç örneği
