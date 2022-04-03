@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+}
+
+.counter{
+    margin: auto;
+    text-align: center;
+}
+
+.counter p{
+    font-size: 80px;
+}
+
+.counter button{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(24, 90, 68, 0.253);
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.counter button:active{
+    background-color: rgba(127, 255, 212, 0.158);
+    width: 111px;
+    height: 22px;
+}
